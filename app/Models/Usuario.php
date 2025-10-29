@@ -7,11 +7,11 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
 
-class User extends Authenticatable
+class Usuario extends Authenticatable
 {
     use Notifiable;
 
-    protected $table = 'users'; 
+    protected $table = 'usuario'; 
     protected $primaryKey = 'id';   
 
     protected $fillable = [
