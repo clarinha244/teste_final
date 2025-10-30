@@ -14,7 +14,7 @@
         <div class="row">
           <div class="col">
               <img class="rounded mx-auto d-block" src="{{ asset($usuario->foto) }}" alt="Foto do usuário" style="width: 150px; height: 150px; object-fit: cover;">
-            <h5 class="text-center border-bottom border-dark">{{ $usuario->nome }}</h5>
+            <h5 class="text-center border-bottom border-dark">{{ $usuario->nickname }}</h5>
           <div class="container">
            <div class="row">
             <div class="col">
